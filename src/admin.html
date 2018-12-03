@@ -7,5 +7,62 @@
     <link rel="stylesheet" href="default.css">
 </head>
 <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="home.html">
+            <img src="assets/toilet-black-silhouette.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+            Potty Mouth
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="admin.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="audio-admin.html">Media</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="dates.html">Dates</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="social.html">Social</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <img class="fitted" src="assets/larecord.jpg">
+    <img class="fitted" src="assets/graffitti.jpg">
+    <img class="fitted" src="assets/theband.jpg">
+    <img class="fitted" src="assets/rockingout.jpg">
+
+
+
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("fitted");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 10000); // Change image every 10 seconds
+        }
+        </script>
 </body>
 </html>
