@@ -7,6 +7,12 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.8/tiny-slider.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      a.deco-none {
+          color: inherit;
+          text-decoration:none;
+      }
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -44,7 +50,10 @@
 
   <!-- Page Content -->
   <div class="container-fluid col-6">
-    <!-- Code from: https://github.com/ganlanyuan/tiny-slider -->
+    <div class="text-center my-3">
+      <button type="button" class="btn btn-primary btn-sm">Audio</button>
+      <button type="button" class="btn btn-secondary btn-sm"><a class="deco-none" href="video.html">Video</a></button>
+    </div>
     <div class="row slider text-center">
       <div><img src="./assets/pm.jpg" class="img-fluid" /></div>
       <div><img src="./assets/smashhit.jpg" class="img-fluid" /></div>
@@ -183,7 +192,8 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.8.8/min/tiny-slider.js"></script>
-  <script type="module">
+  <!-- Code from: https://github.com/ganlanyuan/tiny-slider -->
+  <script>
     var slider = tns({
       container: '.slider',
       items: 1,
