@@ -39,5 +39,28 @@
             </ul>
         </div>
     </nav>
+
+    <img class="fitted" src="assets/larecord.jpg">
+    <img class="fitted" src="assets/graffitti.jpg">
+    <img class="fitted" src="assets/theband.jpg">
+    <img class="fitted" src="assets/rockingout.jpg">
+
+
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("fitted");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) {slideIndex = 1}
+            x[slideIndex-1].style.display = "block";
+            setTimeout(carousel, 10000); // Change image every 10 seconds
+        }
+        </script>
 </body>
 </html>
