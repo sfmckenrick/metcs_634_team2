@@ -62,13 +62,18 @@ article,
 aside,
 figcaption,
 figure,
-footer,
 header,
 hgroup,
 main,
 nav,
 section {
   display: block;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
 }
 
 body {
