@@ -72,12 +72,99 @@
       <button type="button" class="btn btn-primary btn-sm">Audio</button>
       <a class="btn btn-secondary btn-sm deco-none" href="video.html">Video</a>
     </div>
-    <div class="row slider text-center">
+    <div id="slider">
+    <div class="row slider text-center" >
       <div><img src="./assets/pm.jpg" class="img-fluid" /></div>
       <div><img src="./assets/smashhit.jpg" class="img-fluid" /></div>
       <div><img src="./assets/hellbent.jpg" class="img-fluid" /></div>
     </div>
-    <div class="row">
+    </div>
+    <div id="details" style="display: none">
+      <div class="card mb-4">
+        <div class="card-header">
+          <h2>Lyrics</h2>
+        </div>
+        <div class="card-body">
+          <h4 class="card-title">Smash Hit</h4>
+          <p class="card-text">
+            Something.give us more of that something (ultra sound)?<br/>
+            Something give us some more of that<br/>
+            one thing you just (oh well)?(oh well)?<br/>
+            Never sell<br/>
+            You want a smash hit<br/>
+            Do you know whats in fashion<br/>
+            Thank you for asking<br/>
+            Are you ready<br/>
+            Make it happen<br/>
+            Super extra ultra special<br/>
+            FANTASTIC!<br/>
+            Modern (damsel)?<br/>
+            Summertime capsule<br/>
+            SMASH HIT!<br/>
+            <br/>
+            Something (that said)? give us more<br/>
+            Of that something (?????)<br/>
+            ...(never sell)?<br/>
+            <br/>
+            You want a smash hit<br/>
+            Do you know whats in fashion<br/>
+            Thank you for asking<br/>
+            Are you ready<br/>
+            Make it happen<br/>
+            Super extra ultra special<br/>
+            FANTASTIC!<br/>
+            Modern (damsel)?<br/>
+            Summertime capsule<br/>
+            SMASH HIT!<br/>
+            <br/>
+            Super extra ultra special<br/>
+            FANTASTIC!<br/>
+            Modern (damsel)?<br/>
+            Summertime capsule<br/>
+            SMASH HIT!<br/>
+            <br/>
+            Sound plays ...Ring ring ring ring...<br/>
+            Telephone telephone telephone call<br/>
+            Telephone telephone telephone call<br/>
+            Telephone telephone telephone call<br/>
+            Telephone telephone telephone call<br/>
+            <br/>
+            Super extra ultra special<br/>
+            FANTASTIC!<br/>
+            Modern (damsel)?<br/>
+            Summertime capsule<br/>
+            SMASH HIT!<br/>
+            <br/>
+            Super extra ultra special<br/>
+            Sarcastic<br/>
+            Modern (damsel)?<br/>
+            Summertime capsule<br/>
+            SMASH HIT!</p>
+        </div>
+        <div class="card-footer text-muted">
+          Released: Oct 7th, 2016<br/>
+          Album: Smash Hit (Single)
+        </div>
+      </div>
+    </div>
+    <div class="text-center my-3">
+      <button onclick="toggleDetails()" class="btn btn-light btn-sm">Toggle Details</button>
+    </div>
+
+      <script>
+          function toggleDetails() {
+              var details = document.getElementById("details");
+              var slider = document.getElementById("slider");
+              if (slider.style.display === "none") {
+                  slider.style.display = "block";
+                  details.style.display = "none";
+              } else {
+                  slider.style.display = "none";
+                  details.style.display = "block";
+              }
+          }
+      </script>
+      <div class="row">
       <table class="table table-striped">
         <thead>
           <tr>
