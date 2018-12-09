@@ -1,113 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Video</title>
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-      a.deco-none {
-          color: inherit;
-          text-decoration:none;
-      }
+    <head>
+        <meta charset="UTF-8">
+        <title>Video</title>
+        <!-- Bootstrap core CSS -->
+        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            a.deco-none {
+                color: inherit;
+                text-decoration:none;
+            }
 
-      .col-form-label {
-        color: white;
-      }
-    </style>
-</head>
-<body background="assets/background-black-and-white-brick-wall-1022692.jpg">
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="home.html">
-        <img src="assets/toilet-black-silhouette.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-        Potty Mouth - Admin
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
+            .col-form-label {
+                color: white;
+            }
+        </style>
+    </head>
+    <body background="assets/background-black-and-white-brick-wall-1022692.jpg">
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">
+                <img src="assets/toilet-black-silhouette.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Potty Mouth - Admin
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="home-admin.html">Home</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="video-admin.html">Media</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="social-admin.html">Social</a>
-            </li>
-            <li class="nav-item">
-                <a class="btn btn-danger" href="home.html">Logout</a>
-            </li>
-        </ul>
-    </div>
-  </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home-admin.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="video-admin.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store-admin.html">Store</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="dates-admin.html">Dates</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="social-admin.html">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-danger" href="home.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-  <!-- Page Content -->
-  <div class="container-fluid col-6">
-    <div class="text-center my-3">
-      <a class="deco-none btn btn-secondary btn-sm" href="audio-admin.html">Audio</a>
-      <button type="button" class="btn btn-primary btn-sm">Video</button>
-    </div>
-    <div class="form-group row">
-      <label for="example-text-input" class="col-2 col-form-label">Video URL</label>
-      <div class="col-10">
-        <input class="form-control" type="text" placeholder="https://www.youtube.com/watch?v=Q6zK8hRiciY" id="example-text-input">
-        <button class="my-1 btn btn-success btn-sm deco-none">Add Video</button>
-      </div>
-    </div>
-    <div class="row text-center">
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/Q6zK8hRiciY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/cOFMyAMDKx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/rp24x3JD6Ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/97OYmdrLAgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/Yo5DneCjIFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-      <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
-        <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/PcJTxdmjs4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div class="text-center my-3">
-        <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
-      </div>
-    </div>
-  </div>
+        <!-- Page Content -->
+        <div class="container-fluid col-6">
+            <div class="text-center my-3">
+                <a class="deco-none btn btn-secondary btn-sm" href="audio-admin.html">Audio</a>
+                <button type="button" class="btn btn-primary btn-sm">Video</button>
+            </div>
+            <div class="form-group row">
+                <label for="example-text-input" class="col-2 col-form-label">Video URL</label>
+                <div class="col-10">
+                    <input class="form-control" type="text" placeholder="https://www.youtube.com/watch?v=Q6zK8hRiciY" id="example-text-input">
+                    <button class="my-1 btn btn-success btn-sm deco-none">Add Video</button>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/Q6zK8hRiciY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/cOFMyAMDKx0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/rp24x3JD6Ho" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/97OYmdrLAgs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/Yo5DneCjIFQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+                <div class="embed-responsive embed-responsive-16by9 col-xs-12 text-center">
+                    <iframe class="my-3 text-center" width="560" height="315" src="https://www.youtube.com/embed/PcJTxdmjs4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="text-center my-3">
+                    <button class="btn btn-danger btn-sm deco-none">Delete Video</button>
+                </div>
+            </div>
+        </div>
 
 
-    <!-- Footer -->
-    <footer class="py-5 bg-light">
-      <div class="container">
-        <p class="m-0 text-center">Copyright &copy; Potty Mouth 2018 <a class="btn btn-danger float-right" href="video.html">Logout</a></p>
-      </div>
-      <!-- /.container -->
-    </footer>
+        <!-- Footer -->
+        <footer class="py-5 bg-light">
+            <div class="container">
+                <p class="m-0 text-center">Copyright &copy; Potty Mouth 2018 <a class="btn btn-danger float-right" href="video.html">Logout</a></p>
+            </div>
+            <!-- /.container -->
+        </footer>
 
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-</body>
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    </body>
 </html>

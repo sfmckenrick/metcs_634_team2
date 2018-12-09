@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Potty Mouth</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="default.css">
+    </head>
+    <body>
+        <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="home.html">
+                <img src="assets/toilet-black-silhouette.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+                Potty Mouth - Admin
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home-admin.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="audio-admin.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="store-admin.html">Store</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="dates-admin.html">Dates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="social-admin.html">Social</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="btn btn-danger" href="home.html">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <img class="card-img-top" src="assets/banner.jpg" alt="Events Page">
+
+        <!-- Add Blog Post -->
+        <center>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h2 class="card-title">Add New Event</h2>
+                    <div class="form-group row">
+                        <label for="new-event-date" class="col-2 col-form-label">Date</label>
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="date" class="form-control" placeholder="Enter an Event Date..." id="image-upload">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="event-location" class="col-2 col-form-label">Location</label>
+                        <div class="col">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Event Location..." id="post-title">
+                            </div>
+                        </div>
+                    </div>      
+
+                </div>
+                <div class="card-footer text-muted">
+                    <button class="btn btn-success btn-sm deco-none float-right">Add Event</button>
+                </div>
+            </div>
+        </div>
+            </center>
+
+        <!-- Scrollable Card -->
+        <div class="container align-items:center">
+
+            <h1 class="my-4 text-center">Upcoming Tour Dates
+
+            </h1>
+            <div class="row-lg-">
+                <div class="col">
+                    <div class="card-wrapper">
+                        <div id="card-1">
+                            <!--Event items scroll box-->
+                            <div class="scroll-box">
+                                <!--Event dates-->
+
+                                <table class="table table-striped">
+                                    <tbody>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td>
+                                                12/09/2018
+                                            </td>
+                                            <td align-center>
+                                                Somewhere, SomeCity, USA
+                                            </td>
+                                            <td align="right">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-success btn-sm deco-none" href="##">Edit..</button>
+                                                </label>
+                                            </td>
+                                            <td align="left">
+                                                <label class="text-center my-0">
+                                                    <button class="btn btn-danger btn-sm deco-none" href="##">Remove</button>
+                                                </label>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="py-5 bg-light">
+            <div class="container">
+                <p class="m-0 text-center">Copyright &copy; Potty Mouth 2018 <a class="btn btn-danger float-right" href="home.html">Logout</a></p>
+            </div>
+            <!-- /.container -->
+        </footer>
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    </body>
+</html>
