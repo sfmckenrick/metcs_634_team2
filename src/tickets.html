@@ -11,9 +11,10 @@
           text-decoration:none;
       }
 
-      .table {
+      form {
         background-color: white;
       }
+
     </style>
 </head>
 <body background="assets/background-black-and-white-brick-wall-1022692.jpg">
@@ -31,10 +32,10 @@
             <li class="nav-item">
                 <a class="nav-link" href="home.html">Home</a>
             </li>
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="audio.html">Media</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link" href="store.html">Store</a>
             </li>
             <li class="nav-item">
@@ -51,134 +52,52 @@
   </nav>
 
   <!-- Page Content -->
-  <div class="container-fluid col-6">
-    <div class="row">
-      <table class="table table-striped">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Title</th>
-            <th scope="col">Album</th>
-            <th scope="col">Duration</th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Smash Hit</td>
-            <td>Smash Hit (Single)</td>
-            <td>3:21</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Cherry Picking</td>
-            <td>Potty Mouth EP</td>
-            <td>3:02</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Creeper Weed</td>
-            <td>Potty Mouth EP</td>
-            <td>3:31</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">4</th>
-            <td>The Bomb</td>
-            <td>Potty Mouth EP</td>
-            <td>3:03</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">5</th>
-            <td>Long Haul</td>
-            <td>Potty Mouth EP</td>
-            <td>3:23</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">6</th>
-            <td>Truman Show</td>
-            <td>Potty Mouth EP</td>
-            <td>3:01</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">7</th>
-            <td>The Gap</td>
-            <td>Hell Bent</td>
-            <td>3:03</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">8</th>
-            <td>Rusted Shut</td>
-            <td>Hell Bent</td>
-            <td>2:40</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">9</th>
-            <td>Black and Studs</td>
-            <td>Hell Bent</td>
-            <td>3:57</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">10</th>
-            <td>Sleep Talk</td>
-            <td>Hell Bent</td>
-            <td>2:57</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">11</th>
-            <td>The Spins</td>
-            <td>Hell Bent</td>
-            <td>3:32</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">12</th>
-            <td>Damage</td>
-            <td>Hell Bent</td>
-            <td>4:14</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">13</th>
-            <td>Wishlist</td>
-            <td>Hell Bent</td>
-            <td>3:04</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">14</th>
-            <td>Bullseye</td>
-            <td>Hell Bent</td>
-            <td>3:01</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">15</th>
-            <td>Shithead</td>
-            <td>Hell Bent</td>
-            <td>3:00</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">16</th>
-            <td>The Better End</td>
-            <td>Hell Bent</td>
-            <td>5:22</td>
-            <td><i class="fa fa-play-circle-o"></i></td>
-          </tr>
-        </tbody>
-      </table>
+  <div class="container-fluid">
+    <div class="text-center my-3">
+      <a class="btn btn-secondary btn-sm deco-none" href="store.html">Merch</a>
+      <button type="button" class="btn btn-primary btn-sm">Tickets</button>
     </div>
+
+    <h1 class="jumbotron">Tickets: SomeVenue - Somewhere, SomeCity, USA</h1>
+
+    <form class="row-fluid p-4">
+      <div class="form-group">
+        <label for="exampleSelect1">Quantity</label>
+        <select class="form-control" id="exampleSelect1">
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+          <option>7</option>
+          <option>8</option>
+          <option>9</option>
+        </select>
+      </div>
+      <fieldset class="form-group">
+        <legend>Ticket Type</legend>
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+            Floor
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios2" value="option2">
+            Mezzanine
+          </label>
+        </div>
+        <div class="form-check">
+        <label class="form-check-label">
+            <input type="radio" class="form-check-input" name="optionsRadios" id="optionsRadios3" value="option3">
+            Balcony
+          </label>
+        </div>
+      </fieldset>
+      <a href="#" class="btn btn-primary">Add to Cart</a>
+    </form>
   </div>
 
     <!-- Footer -->
