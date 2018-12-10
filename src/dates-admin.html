@@ -6,6 +6,15 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="default.css">
     </head>
+
+    <style>
+        .scroll-box {
+            overflow-y: scroll;
+            height: 75%;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="home.html">
@@ -46,35 +55,35 @@
 
         <!-- Add Blog Post -->
         <center>
-        <div class="col-md-4">
-            <div class="card mb-4">
-                <div class="card-body">
-                    <h2 class="card-title">Add New Event</h2>
-                    <div class="form-group row">
-                        <label for="new-event-date" class="col-2 col-form-label">Date</label>
-                        <div class="col">
-                            <div class="input-group">
-                                <input type="date" class="form-control" placeholder="Enter an Event Date..." id="image-upload">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h2 class="card-title">Add New Event</h2>
+                        <div class="form-group row">
+                            <label for="new-event-date" class="col-2 col-form-label">Date</label>
+                            <div class="col">
+                                <div class="input-group">
+                                    <input type="date" class="form-control" placeholder="Enter an Event Date..." id="image-upload">
+                                </div>
                             </div>
                         </div>
+
+                        <div class="form-group row">
+                            <label for="event-location" class="col-2 col-form-label">Location</label>
+                            <div class="col">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Event Location..." id="post-title">
+                                </div>
+                            </div>
+                        </div>      
+
                     </div>
-
-                    <div class="form-group row">
-                        <label for="event-location" class="col-2 col-form-label">Location</label>
-                        <div class="col">
-                            <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Event Location..." id="post-title">
-                            </div>
-                        </div>
-                    </div>      
-
-                </div>
-                <div class="card-footer text-muted">
-                    <button class="btn btn-success btn-sm deco-none float-right">Add Event</button>
+                    <div class="card-footer text-muted">
+                        <button class="btn btn-success btn-sm deco-none float-right">Add Event</button>
+                    </div>
                 </div>
             </div>
-        </div>
-            </center>
+        </center>
 
         <!-- Scrollable Card -->
         <div class="container align-items:center">
@@ -87,7 +96,7 @@
                     <div class="card-wrapper">
                         <div id="card-1">
                             <!--Event items scroll box-->
-                            <div class="scroll-box">
+                            <div class="scroll-box" style="max-height: 697px">
                                 <!--Event dates-->
 
                                 <table class="table table-striped">

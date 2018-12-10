@@ -85,6 +85,26 @@ body {
   height: 100%;
 }
 
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+.main-container {
+ min-height: 100vh; /* will cover the 100% of viewport */
+ overflow: hidden;
+ display: block;
+ position: relative;
+ padding-bottom: 100px; /* height of your footer */
+}
+
+footer {
+ position: absolute;
+ bottom: 0;
+ width: 100%;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important;
 }
@@ -589,6 +609,7 @@ pre code {
 
 .container {
   width: 100%;
+    height: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
